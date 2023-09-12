@@ -12,3 +12,22 @@
 .header__lang-link:active {
     text-decoration: underline;
 }
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px; /* 111.111% */
+    }
+}
