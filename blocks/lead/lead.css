@@ -1,3 +1,27 @@
 .lead {
     margin-top: 56px;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        margin-top: 48px;
+    }
+}

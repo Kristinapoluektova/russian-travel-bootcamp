@@ -9,3 +9,27 @@
     text-transform: uppercase;
     margin: 4px auto 0px 148px;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead__caption {
+        margin: 4px auto 0px 148px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin: 4px auto 0px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin: 4px auto 0px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin: 4px auto 0px 16px;
+    }
+}

@@ -6,8 +6,34 @@
     font-style: normal;
     font-weight: 900;
     line-height: 100px; /* 104.167% */
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    max-height: 200px;
     display: block;
     margin: 0px 280px 0px 280px;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__title {
+        margin: 0px 280px 0px 280px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        margin: 0px 152px 0px 152px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin: 0px 24px 0px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        margin: 0px 16px 0px 16px;
+        font-size: 40px;
+        line-height: 44px; /* 110% */
+    }
 }
