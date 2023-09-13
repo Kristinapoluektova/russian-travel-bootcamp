@@ -12,3 +12,28 @@
     position: relative;
     z-index: 2;
 }
+
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px; /* 114.286% */
+        width: 288px;
+    }
+}

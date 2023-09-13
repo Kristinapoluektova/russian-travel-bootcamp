@@ -1,20 +1,28 @@
 .cover {
     margin: 10px 48px 92px 48px;
     display: flex;
-    /* position: relative; */
 }
 
- /* .cover::before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    background: #2A2C2F;
+@media screen and (max-width: 1280px) {
+    .cover {
+
+    }
 }
 
-.cover:hover::before {
-    opacity: 0.8;
-} */
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 10px 0px 92px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 15px 0px 88px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 10px 0px 64px 0px;
+    }
+}
