@@ -8,3 +8,28 @@
     text-decoration-line: underline;
     width: 456px;
 }
+
+@media screen and (max-width: 1280px) {
+    .place__link {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .place__link {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        width: 288px;
+        padding: 0px 16px 0px 16px;
+    }
+}

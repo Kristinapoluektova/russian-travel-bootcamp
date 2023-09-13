@@ -9,3 +9,33 @@
     width: 460px;
     align-self: flex-end; 
 }
+
+@media screen and (max-width: 1280px) {
+    .place__title {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        width: 340px;
+        font-size: 42px;
+        line-height: 46px; /* 109.524% */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        display: block;
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px; /* 109.375% */
+        padding: 0px 16px 0px 16px;
+    }
+}
