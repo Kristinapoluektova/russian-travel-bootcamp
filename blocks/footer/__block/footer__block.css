@@ -3,3 +3,26 @@
     flex-direction: row;
     gap: 18px;
 }
+
+@media screen and (max-width: 1280px) {
+    .footer__block {
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__block {
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__block {
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__block {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
