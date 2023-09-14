@@ -9,7 +9,7 @@
     line-height: 16px; /* 114.286% */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .footer__copyright {
         padding-top: 48px;
         text-align: left;

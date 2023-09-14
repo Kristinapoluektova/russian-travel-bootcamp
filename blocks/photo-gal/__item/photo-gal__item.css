@@ -1,13 +1,8 @@
 .photo-gal__item {
     width: 284px;
     height: 213px;
-}
-
-@media screen and (max-width: 1280px) {
-    .photo-gal__item {
-        width: 284px;
-        height: 213px;
-    }
+    display: block;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1250px) {

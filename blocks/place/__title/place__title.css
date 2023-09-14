@@ -1,4 +1,5 @@
 .place__title {
+    display: block;
     color: #FFF;
     font-family: Inter;
     font-size: 72px;
@@ -26,7 +27,6 @@
 
 @media screen and (max-width: 760px) {
     .place__title {
-        display: block;
         width: 288px;
         font-size: 32px;
         line-height: 35px; /* 109.375% */
