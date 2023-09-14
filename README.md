@@ -7,3 +7,6 @@
 
 * HTML 
 * CSS
+
+**Ссылка на проект**
+https://kristinapoluektova.github.io/russian-travel-poluektova/
