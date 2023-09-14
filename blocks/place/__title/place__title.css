@@ -10,19 +10,13 @@
     align-self: flex-end; 
 }
 
-@media screen and (max-width: 1280px) {
-    .place__title {
-        width: 460px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .place__title {
         width: 440px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
     .place__title {
         width: 340px;
         font-size: 42px;
@@ -30,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
     .place__title {
         display: block;
         width: 288px;

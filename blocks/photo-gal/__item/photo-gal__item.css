@@ -10,21 +10,21 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1250px) {
     .photo-gal__item {
         width: 300px;
         height: 225px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .photo-gal__item {
         width: 352px;
         height: 264px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 762px) {
     .photo-gal__item {
         width: 288px;
         height: 216px;

@@ -33,3 +33,24 @@
 @import url(../blocks/footer/__block/footer__block.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@font-face {
+    src: url(../fonts/Inter-Regular.otf);
+    font-family: 'Inter';
+}
+@font-face {
+    src: url(../fonts/Inter-Italic.otf);
+    font-family: 'Inter';
+    font-style: italic;
+}
+@font-face {
+    src: url(../fonts/Inter-Bold.otf);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+@font-face {
+    src: url(../fonts/Inter-BoldItalic.otf);
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: bold;
+}

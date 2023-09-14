@@ -9,25 +9,13 @@
     width: 456px;
 }
 
-@media screen and (max-width: 1280px) {
-    .place__link {
-        width: 456px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .place__link {
-        width: 456px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
     .place__link {
         width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
     .place__link {
         width: 288px;
         padding: 0px 16px 0px 16px;

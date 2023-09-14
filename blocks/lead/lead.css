@@ -13,15 +13,3 @@
         margin-top: 48px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .lead {
-        margin-top: 48px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        margin-top: 48px;
-    }
-}

@@ -18,19 +18,19 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .lead__title {
         margin: 0px 152px 0px 152px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
     .lead__title {
         margin: 0px 24px 0px 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 605px) {
     .lead__title {
         margin: 0px 16px 0px 16px;
         font-size: 40px;

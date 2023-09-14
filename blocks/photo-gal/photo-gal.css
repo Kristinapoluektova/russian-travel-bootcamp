@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1250px) {
     .photo-gal {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .photo-gal {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 762px) {
     .photo-gal {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
