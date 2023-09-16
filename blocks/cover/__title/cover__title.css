@@ -3,12 +3,11 @@
     padding-top: 245px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 76px; /* 105.556% */
-    width: 560px;
+    max-width: 560px;
     display: block;
     position: relative;
     z-index: 2;
@@ -24,7 +23,7 @@
 @media screen and (max-width: 768px) {
     .cover__title {
         padding-top: 116px;
-        width: 560px;
+        max-width: 560px;
     }
 }
 
@@ -34,6 +33,6 @@
         padding-top: 33px;
         font-size: 32px;
         line-height: 35px; /* 109.375% */
-        width: 288px;
+        max-width: 288px;
     }
 }
