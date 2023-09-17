@@ -1,14 +1,8 @@
 .places {
-    margin: 92px auto 0px auto;
+    margin: 92px 148px 0px 148px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-@media screen and (max-width: 1280px) {
-    .places {
-        margin: 92px 148px 0px 148px;
-    }
 }
 
 @media screen and (max-width: 1200px) {
